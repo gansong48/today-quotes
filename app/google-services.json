@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653272575902",
+    "project_id": "quotes-8157c",
+    "storage_bucket": "quotes-8157c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653272575902:android:f9d4405a392891ad63308f",
+        "android_client_info": {
+          "package_name": "org.techtown.today_quote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653272575902-6ok6av81jqcr5hp64p02eul2l5qqfivd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANSS9BJuMR3ahna9MGl0tJcaZQbR9M-PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653272575902-6ok6av81jqcr5hp64p02eul2l5qqfivd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

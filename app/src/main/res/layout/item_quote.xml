@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nameTextView"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:gravity="end|center_vertical"
+        android:textSize="30sp"
+        android:maxLines="6"
+        android:ellipsize="end"
+        android:layout_marginHorizontal="40dp"
+        app:layout_constraintVertical_bias="0.4"
+        tools:text="나는"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/quoteTextView"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/quoteTextView"
+        app:layout_constraintStart_toStartOf="@id/quoteTextView"
+        tools:text="나는 ㅋㅋ"
+        android:gravity="end|center_vertical"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
